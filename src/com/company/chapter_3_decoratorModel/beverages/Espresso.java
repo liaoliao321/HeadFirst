@@ -1,0 +1,15 @@
+package com.company.chapter_3_decoratorModel.beverages;
+
+import com.company.chapter_3_decoratorModel.base.Beverage;
+
+public class Espresso extends Beverage {
+
+    public Espresso() {
+        description = "Espresso";
+    }
+
+    @Override
+    public double cost() {
+        return 1.99;
+    }
+}
